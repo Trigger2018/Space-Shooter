@@ -585,9 +585,10 @@ GameObject:
   - component: {fileID: 700344565}
   - component: {fileID: 700344564}
   - component: {fileID: 700344568}
+  - component: {fileID: 700344569}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -711,6 +712,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.39583334
+--- !u!114 &700344569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700344563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1242e5be8f80e47f1b8e65e2814d1c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  maxHealth: 3
+  deathEffect: {fileID: 7985640197321573567, guid: 1ab692339386549abae701e2b4a8f033,
+    type: 3}
 --- !u!1 &705481196
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,6 +740,7 @@ GameObject:
   - component: {fileID: 705481199}
   - component: {fileID: 705481198}
   - component: {fileID: 705481197}
+  - component: {fileID: 705481201}
   m_Layer: 0
   m_Name: meteor-1
   m_TagString: Space Object
@@ -821,6 +839,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &705481201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705481196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938ca18959e2544a289db07dff55b5de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &737089278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1066,7 @@ GameObject:
   m_Layer: 0
   m_Name: TopRightLimit
   m_TagString: Untagged
-  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1285,7 +1315,7 @@ GameObject:
   m_Layer: 0
   m_Name: BottomLeftLimit
   m_TagString: Untagged
-  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
