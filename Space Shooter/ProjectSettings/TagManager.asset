@@ -16,8 +16,8 @@ TagManager:
   - 
   - Player
   - PlayerShot
-  - 
-  - 
+  - Enemy
+  - EnemyShot
   - 
   - 
   - 
