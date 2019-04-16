@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8401816405327382077}
   m_Layer: 0
   m_Name: Enemy Green
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,5 +158,8 @@ MonoBehaviour:
   shotToFire: {fileID: 7909607539910725569, guid: 0a23a9f6892e24391a7a714eea762bee,
     type: 3}
   firePoint: {fileID: 274496705}
-  timeBetweenShots: 0.5
+  timeBetweenShots: 0.85
   canShoot: 1
+  currentHealth: 3
+  deathEffect: {fileID: 8677636452633693357, guid: 1147e70fabafe3f45af1d2b983a73bca,
+    type: 3}
